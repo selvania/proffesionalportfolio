@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-qm71pix4j%_7kw64yp^az+ptsho)9e9boj3%1enzw7g5f_q0fv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['portfolia-asouthworth-dev-d940939ddc01.herokuapp.com']
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'portfolia-asouthworth-dev-d940939ddc01.herokuapp.com',
+    ]
 
 
 # Application definition
