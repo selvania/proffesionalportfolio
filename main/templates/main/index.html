@@ -15,8 +15,10 @@
         Password : "8236308499FA98B4F3A06B085228A4AE5938",
         To : 'southwa@gmail.com',
         From : "southwa@proton.me",
-        Subject : document.getElementById("EmailSubject").value,
-        Body : "New email from " + document.getElementById("EmailName").value + " (" + document.getElementById("EmailFrom").value + "):\n" + document.getElementById("EmailMessage").value,
+        Subject: "Testing this",
+        /* Subject : document.getElementById("EmailSubject").value,
+        Body : "New email from " + document.getElementById("EmailName").value + " (" + document.getElementById("EmailFrom").value + "):\n" + document.getElementById("EmailMessage").value, */
+        Body: "Testing email",
         Port : 2525,
     });
     
@@ -53,10 +55,10 @@
     <header class="w3-container w3-center" style="padding:128px 16px" id="home">
       <h1 class="w3-jumbo"><b>{{ firstname }} {{ lastname }}</b></h1>
       <p>Artist and Programmer.</p>
-      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/332280237_1468463950651256_3265671414789742754_n.jpg?_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=xd6CsU5KiksAX9t6Yga&_nc_ht=scontent-lga3-1.xx&oh=00_AfA7-IU6eu6UAQ4oVqeicrY01pEZ1FaRU9UhIK8T7iRTnw&oe=64AC67FC" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
-      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/332280237_1468463950651256_3265671414789742754_n.jpg?_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=xd6CsU5KiksAX9t6Yga&_nc_ht=scontent-lga3-1.xx&oh=00_AfA7-IU6eu6UAQ4oVqeicrY01pEZ1FaRU9UhIK8T7iRTnw&oe=64AC67FC" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+      <img src="">
+      <img src="/media/img2.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
       <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
-        <i class="fa fa-download"></i> Download Resume
+        <a href="/media/Resume_ASouthworth.pdf" target="_blank"><i class="fa fa-download"></i> Download Resume</a>
       </button>
     </header>
   
@@ -68,15 +70,14 @@
       <!-- Grid for photos -->
       <div class="w3-row-padding" style="margin:0 -16px">
         <div class="w3-half">
-          <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/319859647_806116707121061_5095623167722318848_n.jpg?_nc_cat=110&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=fcmQJRfgBbMAX8OzEYz&_nc_ht=scontent-lga3-1.xx&oh=00_AfCMnk3ps5ygqMLaZK31wLR-lVi4XRNIXH5YnFeN0zNQCg&oe=64ACA449" style="width:100%">
-          <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/342012584_945929649913581_166683075349228046_n.jpg?_nc_cat=107&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=numcjVNwvfYAX_LR5KL&_nc_ht=scontent-lga3-2.xx&oh=00_AfANR_FV95IrkHldDGUiqT73-txXriDAlVRlisOpj2dfmg&oe=64AD1549" style="width:100%">
-          <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/280319676_10161941649029126_4642073912077333604_n.jpg?_nc_cat=109&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=J2dWxT1SXIgAX8Ev-tn&_nc_ht=scontent-lga3-2.xx&oh=00_AfCva9YPyz5p5Fg5UkT6aRZ23GrbWZiNs2t-AAe-PeVP_g&oe=64ADF46E" style="width:100%">
+          <img src="/media/img1.jpg" style="width:100%">
+          <img src="/media/img3.jpg" style="width:100%">
+          <img src="/media/img4.jpg" style="width:100%">
         </div>
   
         <div class="w3-half">
-          <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/276010030_10161837854334126_6943592544377880841_n.jpg?_nc_cat=109&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=htTeCucdkc4AX-WiaBf&_nc_ht=scontent-lga3-2.xx&oh=00_AfA2bZtVIxBE32ra-2xILXfRgN0NZV6DXP-gGGhK27921w&oe=64AD34A9" style="width:100%">
-          <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/323555010_490893293177066_2910718163975333615_n.jpg?_nc_cat=105&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=WYwaNK73MbcAX-T3Qx9&_nc_ht=scontent-lga3-2.xx&oh=00_AfDSp3qvtgLY2svJXjIZVVFr9lMGxDt-6sezXIc368VeSw&oe=64ACDAFF" style="width:100%">
-          <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/348578885_1671341819945222_8634929276867257853_n.jpg?_nc_cat=110&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=esxva5OgmTwAX80PKZr&_nc_ht=scontent-lga3-1.xx&oh=00_AfADCcH5cKg-IuaYouYzlCgROlfTmkXGMZ_Rog4x4RXm4g&oe=64AC5D41" style="width:100%">
+          <img src="/media/img5.jpg" style="width:100%">
+          <img src="/media/img6.jpg" style="width:100%">
         </div>
       <!-- End photo grid -->
       </div>
